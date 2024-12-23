@@ -24,6 +24,9 @@ h6 {
     line-height: 120%;
     font-weight: 700;
 }
+section{
+    overflow: hidden;
+}
 
 :root {
     --dark-gray: rgb(59, 64, 82);
@@ -922,7 +925,7 @@ footer .company-logo img {
     header .nav-link {
         display: block;
         width: 100%;
-        font-size: 20px;
+        font-size: 10px;
         border-bottom: 1px solid var(--dark-red);
         font-weight: 600;
         margin-right: 0;
@@ -977,7 +980,7 @@ footer .company-logo img {
     }
 
     .nav-logo img {
-        max-height: 25px;
+        max-height: 36px;
     }
 
     .pb-120 {
@@ -1185,7 +1188,7 @@ footer .company-logo img {
 @media (max-width:480px) {
 
     .humburger-btn {
-        margin-left: 16px;
+        margin-left: 0px;
     }
 
     .baner-items {
